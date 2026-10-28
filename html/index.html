@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<script type="module" src="../js/main.js"></script>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto SPA com Biblioteca</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Importação do SweetAlert2 via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="app">
+        <h2>Registo de Tarefas</h2>
+        <form id="form-tarefa">
+            <input type="text" id="input-tarefa" placeholder="Digite uma nova tarefa..." required>
+            <button type="submit">Adicionar</button>
+        </form>
+        <ul id="lista-tarefas"></ul>
+    </main>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto SPA com Templates</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="app">
+        <!-- O conteúdo dinâmico será injetado aqui via JS -->
+    </main>
+
+    <script src="../js/main.js"></script>
+<main id="app">
+    <h2>Registo de Tarefas</h2>
+    <form id="form-tarefa">
+        <input type="text" id="input-tarefa" placeholder="Digite uma nova tarefa..." required>
+        <button type="submit">Adicionar</button>
+    </form>
+    <ul id="lista-tarefas"></ul>
+</main>
+
+</body>
+</html>
